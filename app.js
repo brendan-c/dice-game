@@ -72,7 +72,7 @@ function btnHold(){
     
 
 // 3. Check if player won the game
-    if (scores[activePlayer] >= 20){
+    if (scores[activePlayer] >= 100){
         $idText('name-'+activePlayer, 'WINNER!')
         $('.dice').style.display = 'none'
         $('.player-'+activePlayer+'-panel').classList.toggle('winner');
